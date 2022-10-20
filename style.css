@@ -38,7 +38,7 @@ html{
     left: 82px;
     top: 160px;
 }
-.home-score{
+#home-score{
     /* home-points-text */
 
     position: absolute;
@@ -69,6 +69,7 @@ html{
     border: 2px solid #9AABD8;
     border-radius: 5px;
     background: #1B244A;
+    
 }
 #plus-1-home-text{
 /* plus-one-point */
@@ -113,9 +114,33 @@ html{
     font-size: 15px;
     line-height: 127px;
 }
-
-
-
+#plus-3-home{
+/* plus-3-point */
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 300px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+}
+#plus-3-home-text{
+    /* plus-3-point */
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        left: 205px;
+        top: 240px;
+        
+        font-family: 'Cursed Timer ULiL';
+        color: #9aabd8;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 127px;
+    }
 
 
 
