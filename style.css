@@ -69,24 +69,13 @@ html{
     border: 2px solid #9AABD8;
     border-radius: 5px;
     background: #1B244A;
-    
-}
-#plus-1-home-text{
-/* plus-one-point */
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    left: 93px;
-    top: 240px;
-    
     font-family: 'Cursed Timer ULiL';
     color: #9aabd8;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 127px;
-
+    font-size: 15px; 
 }
+
 #plus-2-home{
 /* plus-one-point */
     position: absolute;
@@ -98,22 +87,13 @@ html{
     border: 2px solid #9AABD8;
     border-radius: 5px;
     background: #1B244A;
- }
-#plus-2-home-text{
-/* plus-one-point */
-    position: absolute;
-    width: 45px;
-    height: 45px;
-    left: 150px;
-    top: 240px;
-    
     font-family: 'Cursed Timer ULiL';
     color: #9aabd8;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 127px;
-}
+ }
+
 #plus-3-home{
 /* plus-3-point */
     position: absolute;
@@ -125,22 +105,12 @@ html{
     border: 2px solid #9AABD8;
     border-radius: 5px;
     background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    color: #9aabd8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
 }
-#plus-3-home-text{
-    /* plus-3-point */
-        position: absolute;
-        width: 45px;
-        height: 45px;
-        left: 205px;
-        top: 240px;
-        
-        font-family: 'Cursed Timer ULiL';
-        color: #9aabd8;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 127px;
-    }
 
 
 
@@ -178,7 +148,7 @@ html{
     left: 337px;
     top: 160px;
 }
-.guest-score{
+#guest-score{
     position: absolute;
     width: 117px;
     height: 120px;
@@ -195,4 +165,76 @@ html{
     text-align: center;
 
     color: #F94F6D;
+}
+#plus-1-guest{
+/* plus-one-point */
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 300px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    color: #9aabd8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px; 
+}
+
+#plus-2-guest{
+/* plus-one-point */
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 300px;
+        
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    color: #9aabd8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px; 
+}
+
+#plus-3-guest{
+/* plus-one-point */
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 300px;
+        
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    color: #9aabd8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px; 
+}
+/*reset scores*/
+
+#reset-score{
+/* plus-one-point */
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 268px;
+    top: 200px;
+        
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    color: #9aabd8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px; 
 }

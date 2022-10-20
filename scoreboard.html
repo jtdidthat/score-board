@@ -4,34 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>scoreboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        <div class="container">
-            <div>
-                <h3 id="home">HOME</h3>
-                    <div class="home-rectangle"></div>
-                        <h2 id="home-score"></h2>
-                    <button id="plus-1-home" onclick="plus1Home()"></button>
-                        <h4 id="plus-1-home-text">+1</h4>
-                    <button id="plus-2-home" onclick="plus2Home()"></button>
-                        <h4 id="plus-2-home-text">+2</h4>
-                    <button id="plus-3-home" onclick="plus3Home()"></button>
-                        <h4 id="plus-3-home-text">+3</h4>
-            </div>
-            
-            <div>
-                <h3 id="guest">GUEST</h3>
-                    <div class="guest-rectangle"></div>
-                    <h2 class="guest-score">0</h2>
-                    <button id="plus-1-guest" onclick="plus1Guest()"></button>
-                        <h4 id="plus-1-guest-text">+1</h4>
-                    <button id="plus-2-guest" onclick="plus2Guest()"></button>
-                        <h4 id="plus-2-guest-text">+2</h4>
-                    <button id="plus-3-guest" onclick="plus3Guest()"></button>
-                        <h4 id="plus-3-guest-text">+3</h4>
-            </div>
+        <div>
+            <h3 id="home">HOME</h3>
+                <div class="home-rectangle"></div>
+                    <h2 id="home-score"></h2>
+                <button id="plus-1-home" onclick="plus1Home()">+1</button>
+                <button id="plus-2-home" onclick="plus2Home()">+2</button>
+                <button id="plus-3-home" onclick="plus3Home()">+3</button>
+        </div>
+        
+        <div>
+            <h3 id="guest">GUEST</h3>
+                <div class="guest-rectangle"></div>
+                <h2 id="guest-score"></h2>
+                <button id="plus-1-guest" onclick="plus1Guest()">+1</button>
+                <button id="plus-2-guest" onclick="plus2Guest()">+2</button>
+                <button id="plus-3-guest" onclick="plus3Guest()">+3</button>
+        </div>
+        <div> 
+                <button id="reset-score" onclick="resetScore()">reset</button>
         </div>
         <script src="scoreboard.js"></script>
     </body>
